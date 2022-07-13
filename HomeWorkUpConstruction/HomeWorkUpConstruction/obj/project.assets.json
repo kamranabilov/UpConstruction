@@ -5727,11 +5727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\3.Asp.Net.Core\\HomeWorkUpConstruction\\HomeWorkUpConstruction\\HomeWorkUpConstruction.csproj",
+      "projectUniqueName": "E:\\3.Asp.Net.Core\\GitPushUpConstruction\\HomeWorkUpConstruction\\HomeWorkUpConstruction\\HomeWorkUpConstruction.csproj",
       "projectName": "HomeWorkUpConstruction",
-      "projectPath": "E:\\3.Asp.Net.Core\\HomeWorkUpConstruction\\HomeWorkUpConstruction\\HomeWorkUpConstruction.csproj",
+      "projectPath": "E:\\3.Asp.Net.Core\\GitPushUpConstruction\\HomeWorkUpConstruction\\HomeWorkUpConstruction\\HomeWorkUpConstruction.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "E:\\3.Asp.Net.Core\\HomeWorkUpConstruction\\HomeWorkUpConstruction\\obj\\",
+      "outputPath": "E:\\3.Asp.Net.Core\\GitPushUpConstruction\\HomeWorkUpConstruction\\HomeWorkUpConstruction\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -38,7 +38,7 @@ namespace HomeWorkUpConstruction.Controllers
             {
                 return NotFound();
             }
-            Blog blog = _context.Blogs.Include(x=>x.Comments).FirstOrDefault(i => i.Id == id);
+            Blog blog = _context.Blogs.Include(x=>x.Comments).Include(t=>t.BlogTags).FirstOrDefault(i => i.Id == id);
             return View(blog);
         }
        

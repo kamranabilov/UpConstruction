@@ -1,5 +1,6 @@
 ﻿@model Blog
 
+
     <main id="main">
 
         <!-- ======= Breadcrumbs ======= -->
@@ -51,9 +52,11 @@
 
                                 <i class="bi bi-tags"></i>
                                 <ul class="tags">
-                                    <li><a href="#">Creative</a></li>
-                                    <li><a href="#">Tips</a></li>
-                                    <li><a href="#">Marketing</a></li>
+                                    @foreach (BlogTag blogTag in Model.BlogTags)
+                                    {
+                                        <li><a href="#">@blogTag.Name</a></li>
+                                    }
+
                                 </ul>
                             </div><!-- End meta bottom -->
 
@@ -203,19 +206,12 @@
                             </div><!-- End sidebar recent posts-->
 
                             <div class="sidebar-item tags">
-                                <h3 class="sidebar-title">Tags</h3>
+                                <h3 class="sidebar-title">Tag</h3>
                                 <ul class="mt-3">
-                                    <li><a href="#">App</a></li>
-                                    <li><a href="#">IT</a></li>
-                                    <li><a href="#">Business</a></li>
-                                    <li><a href="#">Mac</a></li>
-                                    <li><a href="#">Design</a></li>
-                                    <li><a href="#">Office</a></li>
-                                    <li><a href="#">Creative</a></li>
-                                    <li><a href="#">Studio</a></li>
-                                    <li><a href="#">Smart</a></li>
-                                    <li><a href="#">Tips</a></li>
-                                    <li><a href="#">Marketing</a></li>
+                                    @foreach (BlogTag tag in Model.BlogTags)
+                                    {
+                                        <li><a href="#">@tag.Name</a></li>
+                                    }
                                 </ul>
                             </div><!-- End sidebar tags-->
 

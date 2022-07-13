@@ -17,6 +17,7 @@ namespace HomeWorkUpConstruction.Models
         public int BranchId { get; set; }
         public Branch Branch { get; set; }
         public List<Comment> Comments { get; set; }
+        public List<BlogTag> BlogTags { get; set; }
 
         public Blog()
         {
